@@ -167,6 +167,6 @@ async function loadData() {
             }), {})
         }
     })
-    const world = await d3.json('http://enjalot.github.io/wwsd/data/world/world-110m.geojson')
+    const world = await d3.json('https://enjalot.github.io/wwsd/data/world/world-110m.geojson')
     return {data, world}
 }
